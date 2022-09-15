@@ -52,7 +52,6 @@ use yii\helpers\Url;
             </a>
             <ul class="dropdown-menu">
                 <li class="user-header bg-light">
-                    <img src="<?= Yii::$app->user->identity->photoUrl ?>" class="img-circle" alt="User Image"/>
                     <p>
                         <?= Yii::$app->user->identity->fullname ?? '' ?>
                         <small class="text-muted">

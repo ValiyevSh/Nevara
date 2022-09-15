@@ -23,9 +23,6 @@ use yii\helpers\Url;
         <!-- Sidebar user panel (optional) -->
         <div class="user-panel mt-3 pb-3 mb-3 d-flex">
             <div class="image">
-                <img src="<?= Yii::$app->user->identity->photoUrl ?>"
-                     class="img-circle elevation-2"
-                     alt="User Image">
             </div>
             <div class="info">
                 <a href="<?= Url::to(['user/index']) ?>" class="d-block"
